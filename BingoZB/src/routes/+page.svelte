@@ -1,7 +1,7 @@
 	<script >
 // Zrob to importa z jsona jesli bedzie dzialac to zrob calego jsona i wtedy zrob wyglad jak narazie git to wyglada i jutro powienienes skonczyc
          let count = $state(0);
-        console.log(jsonData);
+        console.log();
         function increment() {
             count += 1;
             alert(count);
