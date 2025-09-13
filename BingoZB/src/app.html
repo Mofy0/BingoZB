@@ -5,19 +5,12 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%
+
+		<script>
+			import increment from './components/incre.svelte';
+		</script>
 	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">%sveltekit.body%</div>		
-			<div id="BingoDiv" class="w-128 h-128 border-5 border-indigo-600 grid grid-cols-3">
-				<button id="BingoBT" class="">Dobra cos tu bedzie</button>
-				<button id="BingoBT" class="">Dobra cos tu bedzie</button>
-				<button id="BingoBT" class="">Dobra cos tu bedzie</button>
-				<button id="BingoBT" class="">Dobra cos tu bedzie</button>
-				<button id="BingoBT" class="">Dobra cos tu bedzie</button>
-				<button id="BingoBT" class="">Dobra cos tu bedzie</button>
-				<button id="BingoBT" class="">Dobra cos tu bedzie</button>
-				<button id="BingoBT" class="">Dobra cos tu bedzie</button>
-				<button id="BingoBT" class="">Dobra cos tu bedzie</button>
-			</div>
+	<body data-sveltekit-preload-data="hover" class="grid place-items-center">
+		<div style="display: contents" class="w-256 h-256 place-content-center ">%sveltekit.body%</div>		
 	</body>
 </html>
