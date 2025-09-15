@@ -1,6 +1,9 @@
 	<script >
-// Zrob to importa z jsona jesli bedzie dzialac to zrob calego jsona i wtedy zrob wyglad jak narazie git to wyglada i jutro powienienes skonczyc
-         let count = $state(0);
+	import { parse } from "svelte/compiler";
+    import jsondata from '../../src/json/bingocards.json';
+
+        console.log(jsondata);
+        let count = $state(0);        
         console.log();
         function increment() {
             count += 1;
