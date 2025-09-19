@@ -2,17 +2,24 @@
     "cards": {
         "easy":[
             {
-                "text": "Zabij wroga bronią białą"
+                "text": "Cisza🤫"
             },
             {
-                "text": "bratek"
+                "text": "Kochani❤️"
+            },
+            {
+                "text": "Min 2 Osoby resetuje hasło do Microsofta"
             }
         ],
         "medium":[
-
+            {
+                "text": "Min 5 Osób resetuje hasło do Microsofta"
+            }
         ],
         "hard":[
-
+            {
+                "text": "Min 10 Osób resetuje hasło do Microsofta"
+            }
         ]
     }
 }
