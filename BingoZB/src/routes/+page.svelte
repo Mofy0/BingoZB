@@ -11,15 +11,17 @@
             }
         }
         </script>
-    
-    <div id="BingoDiv" class="w-128 h-128 border-5 border-indigo-600 grid grid-cols-3 text-center text-wrap: wrap-anywhere">
+    <div class="flex justify-center items-center h-screen">
+    <div id="BingoDiv" class="space-x-2 space-y-2 w-128 h-128 border-5 border-indigo-600 grid grid-cols-3 text-center text-wrap: wrap-anywhere">
         <button id="BingoBT" class="shadow-md hover:bg-sky-100" on:click={increment}>{jsondata.cards.easy[0].text}</button>
+		<button id="BingoBT" class="shadow-md hover:bg-sky-100" on:click={increment}>{jsondata.cards.easy[1].text}</button>
+		<button id="BingoBT" class="shadow-md hover:bg-sky-100" on:click={increment}>{jsondata.cards.hard[0].text}</button>
 		<button id="BingoBT" class="shadow-md hover:bg-sky-100" on:click={increment}>Dobra cos tu bedzie</button>
 		<button id="BingoBT" class="shadow-md hover:bg-sky-100" on:click={increment}>Dobra cos tu bedzie</button>
 		<button id="BingoBT" class="shadow-md hover:bg-sky-100" on:click={increment}>Dobra cos tu bedzie</button>
 		<button id="BingoBT" class="shadow-md hover:bg-sky-100" on:click={increment}>Dobra cos tu bedzie</button>
 		<button id="BingoBT" class="shadow-md hover:bg-sky-100" on:click={increment}>Dobra cos tu bedzie</button>
-		<button id="BingoBT" class="shadow-md hover:bg-sky-100" on:click={increment}>Dobra cos tu bedzie</button>
-		<button id="BingoBT" class="shadow-md hover:bg-sky-100" on:click={increment} >Dobra cos tu bedzie</button>
-		<button id="BingoBT" class="shadow-md hover:bg-sky-100" on:click={increment}>Dobra cos tu bedzie</button>
+        <button id="BingoBT" class="shadow-md hover:bg-sky-100" on:click={increment}>Dobra cos tu bedzie</button>
+        <button id="BingoBT" class="visibility: hidden" on:click={increment}>Dobra cos tu bedzie</button>
+    </div>
     </div>
